@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Noto+Serif:ital@1&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --myfont: 'Noto', sans-serif;
+    --my-btn-font: 'Merriweather', sans-serif;
+    --lg-lightcolor: linear-gradient(to left, rgba(116, 235, 213, 0.6), rgba(150, 172, 230, 0.6));
+    --lg-color: linear-gradient(to left, #74ebd5, #9face6);
+}
+
+.container2
+{
+    
+    margin-top: -4.6rem;
+    display: inline-block;
+    margin-left: 3%;
+	background-color: #fff;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.head
+{
+	background: var(--lg-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 25rem;
+	padding: 20px;
+    visibility: visible;
+}
+
+.marks
+{
+    padding-left: 50px;
+    visibility: visible;
+}
+
+.form2
+{
+    padding: 20px;
+    background: var(--lg-lightcolor);
+    visibility: visible;
+}
+
+.marks label
+{
+    display: inline-block;
+    margin-bottom: 3px;
+}
+.marks input
+{
+    width: 50%;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: var(--myfont);
+    font-size: 15px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.marks input:focus
+{
+	outline: 0;
+	border-color: #777;
+}
+
+.form2 .btn2
+{
+    background: var(--lg-color);
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: #fff;
+    display: block;
+    font-family: var(--my-btn-font);
+    font-size: 16px;
+    padding: 15px 0;
+    margin-top: 25px;
+	margin-left: 12%;
+    width: 60%;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 1s ease;
+	cursor: pointer;
+}
+
+.form2 .btn2:hover
+{
+    background: linear-gradient(to right, #4ce7cb, #7084e0);
+}
